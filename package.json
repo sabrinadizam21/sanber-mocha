@@ -1,0 +1,24 @@
+{
+  "name": "sanber-mocha",
+  "version": "1.0.0",
+  "description": "API Automation Testing using Mocha JS and Chai Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabrinadizam21/sanber-mocha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabrinadizam21/sanber-mocha/issues"
+  },
+  "homepage": "https://github.com/sabrinadizam21/sanber-mocha#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
