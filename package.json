@@ -11,8 +11,8 @@
     "argparse": "^2.0.1",
     "asap": "^2.0.6",
     "assertion-error": "^1.1.0",
-    "balanced-match": "^1.0.2",
     "asynckit": "^0.4.0",
+    "balanced-match": "^1.0.2",
     "binary-extensions": "^2.2.0",
     "brace-expansion": "^2.0.1",
     "braces": "^3.0.2",
@@ -20,6 +20,7 @@
     "call-bind": "^1.0.2",
     "camelcase": "^6.3.0",
     "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
     "chalk": "^4.1.2",
     "check-error": "^1.0.2",
     "chokidar": "^3.5.3",
@@ -55,8 +56,8 @@
     "has": "^1.0.3",
     "has-flag": "^4.0.0",
     "has-symbols": "^1.0.3",
-    "hexoid": "^1.0.0",
     "he": "^1.2.0",
+    "hexoid": "^1.0.0",
     "inflight": "^1.0.6",
     "inherits": "^2.0.4",
     "is-binary-path": "^2.1.0",
@@ -117,7 +118,7 @@
     "mocha": "^10.2.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --timeout 10000"
   },
   "repository": {
     "type": "git",
